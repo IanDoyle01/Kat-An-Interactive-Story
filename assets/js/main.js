@@ -17,15 +17,29 @@ function startGame() {
 function showTextBlock(textBlockIndex) {
     const textBlock = textBlocks.find(textBlock => textBlock.id === textBlockIndex)
     storyText.innerText = textBlock.text
+    
     // clear the option buttons
     while (optionElement.firstChild) {
         optionElement.removeChild(optionElement.firstChild)
     }
+
+    // Display a button for each approved option
+    textBlock.options.forEach(option => {
+        if (showOption(option)) {
+          const button = document.createElement('button')
+          button.innerText = option.text
+          button.classList.add('btn')
+          button.addEventListener('click', () => selectOption(option))
+          optionElement.appendChild(button)
+        }
+      })
 }
 
 
 // Show the correct options for the story-text
-
+function showOption(option) {
+    return option.requiredState == null || option.requiredState(state)
+}
 
 
 
