@@ -17,6 +17,10 @@ function startGame() {
 function showTextBlock(textBlockIndex) {
     const textBlock = textBlocks.find(textBlock => textBlock.id === textBlockIndex)
     storyText.innerText = textBlock.text
+    // clear the option buttons
+    while (optionElement.firstChild) {
+        optionElement.removeChild(optionElement.firstChild)
+    }
 }
 
 
