@@ -32,3 +32,19 @@ body {
   }
 
 /*-------------------------------Option Buttons*/
+
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+  }
