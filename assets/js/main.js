@@ -45,6 +45,9 @@ function showOption(option) {
 // Select the option and move to next text block
 function selectOption(option) {
     const nextTextId = option.nextText
+    if (nextTextId <= 0) {
+        return startGame()
+      }
     state = Object.assign(state, option.setState)
     showTextBlock(nextTextId)
 }
