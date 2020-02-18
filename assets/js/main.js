@@ -12,3 +12,15 @@ function startGame() {
     state = {}
     showTextBlock(1)
 }
+
+
+
+
+
+
+
+
+
+
+
+startGame()
