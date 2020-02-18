@@ -45,13 +45,16 @@ function showOption(option) {
 // Select the option and move to next text block
 function selectOption(option) {
     const nextTextId = option.nextText
+    
+    // restarts game on endings
+    // endings are textBlocks with nextText values less than 0
     if (nextTextId <= 0) {
         return startGame()
-      }
+    }
+    
     state = Object.assign(state, option.setState)
     showTextBlock(nextTextId)
 }
-
 
 
 // Create the text blocks, options and requirements
@@ -79,6 +82,54 @@ const textBlocks = [
             {
                 text: "Focus on the road", 
                 nextText: 4
+            }
+        ]
+    }, 
+    {
+        id: 3, 
+        text: "You tilt the mirror and look at the perfect bundle of joy tucked safely into the back seat. They’d been trying to have a child for two years before Lisa announced she was pregnant.  Not trusting fate this time they’d undergone all the tests available, until they were sure it wasn’t a cruel joke. Nine months later, there she was.  Little Catherine with all her fingers, toes and bright blue eyes. The sound of tyres rolling over leaves snaps you out of your reverie.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Turn the wheel and get the car on track", 
+                nextText: 4
+            }, 
+            {
+                text: "You don't react quickly enough", 
+                nextText: 5
+            }
+        ]
+    }, 
+    {
+        id: 4, 
+        text: "You jerk the wheel hard to steady the car. Catherine starts a high pitched cry that instantly roused Lisa into alert action.  Throwing you a look she sets about calming the baby.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Apologise and keep driving", 
+                nextText: 7
+            }
+        ]
+    }, 
+    {
+        id: 5, 
+        text: "You don’t react fast enough and the car veres off the road and into the trees. You don’t have time to scream before the car explodes in a ball of fire!",
+        graphic: "#", 
+        options: [
+            {
+                text: "Next", 
+                nextText: 6
+            }
+        ]
+    }, 
+    {
+        id: 6, 
+        text: "You have reached one ending of the story. Over before it even began.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Try Again?", 
+                nextText: -1
             }
         ]
     }
