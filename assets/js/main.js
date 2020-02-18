@@ -32,13 +32,21 @@ function showTextBlock(textBlockIndex) {
           button.addEventListener('click', () => selectOption(option))
           optionElement.appendChild(button)
         }
-      })
+    })
 }
 
 
 // Show the correct options for the story-text
 function showOption(option) {
     return option.requiredState == null || option.requiredState(state)
+}
+
+
+// Select the option and move to next text block
+function selectOption(option) {
+    const nextTextId = option.nextText
+    state = Object.assign(state, option.setState)
+    showTextBlock(nextTextId)
 }
 
 
