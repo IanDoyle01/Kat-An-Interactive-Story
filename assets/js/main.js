@@ -37,6 +37,21 @@ const textBlocks = [
                 nextText: 2
             }
         ]
+    }, 
+    {
+        id: 2, 
+        text: "Lisa dozed in the back of the car, exhausted. Despite the odds, your new miracle slept beside her, occasionally burbling in her own language.  You could hardly believe you were a father, kept glancing back to make sure she was really there. That it wasn’t some sick nightmare.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Look at the baby", 
+                nextText: 3
+            }, 
+            {
+                text: "Focus on the road", 
+                nextText: 4
+            }
+        ]
     }
 ]
 
