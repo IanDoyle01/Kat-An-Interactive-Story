@@ -13,14 +13,30 @@ function startGame() {
     showTextBlock(1)
 }
 
+// Display the text in the story-text div
+
+
+
+// Show the correct options for the story-text
 
 
 
 
+// Create the text blocks, options and requirements
+const textBlocks = [
+    {
+        id: 1, 
+        text: "The dark October night was broken only by the evenly spaced orange glow of street lights.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Drive the car", 
+                nextText: 2
+            }
+        ]
+    }
+]
 
 
-
-
-
-
+// Start the game
 startGame()
