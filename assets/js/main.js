@@ -14,7 +14,10 @@ function startGame() {
 }
 
 // Display the text in the story-text div
-
+function showTextBlock(textBlockIndex) {
+    const textBlock = textBlocks.find(textBlock => textBlock.id === textBlockIndex)
+    storyText.innerText = textBlock.text
+}
 
 
 // Show the correct options for the story-text
