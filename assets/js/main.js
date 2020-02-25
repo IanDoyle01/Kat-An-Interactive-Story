@@ -146,6 +146,117 @@ const textBlocks = [
                 nextText: -1
             }
         ]
+    },
+    {
+        id: 8, 
+        text: "Both of his girls had fallen back to sleep within minutes.  Turning into their estate Mark allowed himself a yawn.  They drove past their neighbours houses, each lit brightly from within. Their warmth leeching out into the cold dark evening.  Theirs was the only house in darkness and as he turned into the driveway he dreaded the fact that it would be cold for Catherine.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Continue", 
+                nextText: 9
+            }
+        ]
+    },
+    {
+        id: 9, 
+        text: "As the light from the headlamps crept up the driveway they reflected back from two piercing yellow eyes.  He jammed on the breaks.  A thud came from the front of the car, followed by a cats high pitched scream.  A scream even louder than that coming from Catherine in the back of the car.  More daggers from Lisa.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Shit, I think I hit a cat Li.", 
+                nextText: 10
+            }
+        ]
+    },
+    {
+        id: 10, 
+        text: "Shh honey, its okay,” she cooed as she lifted Catherine from the car seat.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Stay here, I’ll go check.", 
+                nextText: 11
+            }
+        ]
+    }, 
+    {
+        id: 11, 
+        text: "Okay, will you run in and throw on the heating too babe?",
+        graphic: "#", 
+        options: [
+            {
+                text: "Sure, be right back.", 
+                nextText: 12
+            }
+        ]
+    }, 
+    {
+        id: 12, 
+        text: "Mark shivered as he got out of the car, his breath misting in the cold damp air.  The garden was dark, lit only by the cars headlights.  Moving to the front of the car he knelt, there was nothing there. He pulled out his phone and flipped on the torch",
+        graphic: "#", 
+        options: [
+            {
+                text: "Look under the car.", 
+                nextText: 14
+            }, 
+            {
+                text: "Look behind the car.", 
+                nextText: 14
+            }, 
+            {
+                text: "Check the bushes.", 
+                nextText: 13
+            }
+        ]
+    }, 
+    {
+        id: 13, 
+        text: "You use the torch to quickly scan the rest of the garden.  Yellow eyes shine from the hedge.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Lure the cat out", 
+                nextText: 15
+            }
+        ]
+    },  
+    {
+        id: 14, 
+        text: "Nothing here.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Try somewhere else.", 
+                nextText: 12
+            }
+        ]
+    },  
+    {
+        id: 15, 
+        text: "Here kitty, kitty, kitty.” he called softly, reaching towards the hedge.  “Let me see if you’re okay, come here.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Continue", 
+                nextText: 16
+            }
+        ]
+    },  
+    {
+        id: 16, 
+        text: "Here kitty, kitty, kitty.” he called softly, reaching towards the hedge.  “Let me see if you’re okay, come here.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Reach for the cat", 
+                nextText: 17
+            }, 
+            {
+                text: "Leave it alone",
+                nextText: 18
+            }
+        ]
     }
 ]
 
