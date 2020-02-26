@@ -257,6 +257,39 @@ const textBlocks = [
                 nextText: 18
             }
         ]
+    }, 
+    {
+        id: 17, 
+        text: "The eyes stared un-moving.  You edge closer, still pleading softly with the injured cat.  The eyes move back with an angry hiss.  Claws swipe warningly.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Continue", 
+                nextText: 18
+            }
+        ]
+    }, 
+    {
+        id: 18, 
+        text: "'Babe, the cat’s alive.  Leave it be and grab the stuff from the boot.  We can come back out for it.' Lisa said as she carried Catherine into the house. You followed through the front door and are startled by a black blur streaking past you and up the stairs.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Continue", 
+                nextText: 19
+            }
+        ]
+    }, 
+    {
+        id: 19, 
+        text: "'What the fu-?' \n'Was that the cat?' Lisa asked as she bundled Catherine into the living room. \n'Go find it babe.' \n'Man that was fast, can’t have hurt it too bad I suppose. Close the living room door Li, it went upstairs. I’ll grab it and toss it out.' \n'Only if it’s not hurt, we can’t toss a poor injured kitty out into the cold.' \n'We are not keeping it Lisa.  We have more than enough to look after now.' \n'Just get the cat babe,' she said leaning up to kiss him on the cheek before slipping back into the living room.",
+        graphic: "#", 
+        options: [
+            {
+                text: "Look for the cat", 
+                nextText: 20
+            }
+        ]
     }
 ]
 
