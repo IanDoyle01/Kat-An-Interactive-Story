@@ -303,123 +303,123 @@ const textBlocks = [
         ]
     }, 
     {
-        id: 22, 
+        id: 21, 
         text: "He reached the doorway to their room and pressed the switch for the light.  The bulb on the landing exploded.  Shards stung his face.  The top floor was plunged into darkness.  Mark swore, flicking the bedroom light switch with no effect.  The cat hissed from somewhere in the darkness.  Startled, Mark stepped back into the light that had climbed the stairs.",
         graphic: "#", 
         options: [
             {
                 text: "continue", 
-                nextText: 23
+                nextText: 22
             }
         ]
     }, 
     {
-        id: 23, 
+        id: 22, 
         text: "'You okay babe?' Lisa called up. \n 'Yeah, yeah, sorry the bulb blew… scared the shit out of me.  Damn cat is hissing up a storm too.' \n 'Awh, need me to come save you from the big bad kitty?' \n 'You’re hilarious, I can manage thanks.' \n 'Go easy on him Kitty,' she called with a giggle before he heard the living room door click shut again. \n He jumped as the bedroom light flickered into life.  The cat’s hiss abruptly silenced.  Mustering his courage and trying to fight the adrenaline coursing through him, Mark strode into the room.  Nothing.",
         graphic: "#", 
         options: [
             {
                 text: "'God damn it cat, where the fuck are you now?'", 
-                nextText: 24
+                nextText: 23
             }
         ]
     },
     {
-        id: 24, 
+        id: 23, 
         text: "He began to search. Looked under the bed.  Lifted the dirty clothes from the floor.  Nothing.  The curtain across the nursery entrance twitched. ",
         graphic: "#", 
         options: [
             {
                 text: "'Ah, you better not be in Catherine's crib or so help me God.'", 
-                nextText: 25
+                nextText: 24
             }
         ]
     }, 
     {
-        id: 26, 
+        id: 24, 
         text: "He rushed to the curtain and yanked it aside.  A hiss, a sharp pain in his hand.  He yanked it back as the cat leapt from the pole and ran from the room with a squeal.  He could hear it tumble as it missed a couple of steps on the stairs.  His hand stung\; there were three long scratches, the middle one slowly oozing a red drop of blood. \n \'Stupid cat.  Hey Li, it\’s run down there watch out.\' \n \'It\'s ok, I have her babe.  She\'s hurt her leg.\'",
         graphic: "#", 
         options: [
             {
                 text: "Go down stairs", 
+                nextText: 25
+            }
+        ]
+    }, 
+    {
+        id: 25, 
+        text: "Mark came down to the sound of purring and soothing nonsense from Lisa.  Sitting in her lap, one leg held gingerly was a medium sized pitch black cat.  It’s fur was sleek and it’s eyes seemed to glow an eerie yellow.  As he came through the door the cat licked it’s paw slowly, strange eyes fixed on his.",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 26
+            }
+        ]
+    }, 
+    {
+        id: 26, 
+        text: "Catherine started awake again, crying with all the might of a baby’s lungs.  Before either of them could move the cat leapt down and sat by her, purring.  Her cries stopped instantly, turning to an excited gurgle instead.  The cat sat staring at her, purring contentedly.  Lisa looked to Mark, looked at him with those big brown eyes.  Lip pouting.\n 'Awh babe, look at that, she loves her.  We have to keep her.'\n 'No way, that thing gives me the creeps and it’s leaving right now.'\n",
+        graphic: "#", 
+        options: [
+            {
+                text: "Reache down to grab the cat", 
                 nextText: 27
             }
         ]
     }, 
     {
         id: 27, 
-        text: "Mark came down to the sound of purring and soothing nonsense from Lisa.  Sitting in her lap, one leg held gingerly was a medium sized pitch black cat.  It’s fur was sleek and it’s eyes seemed to glow an eerie yellow.  As he came through the door the cat licked it’s paw slowly, strange eyes fixed on his.",
+        text: "With a screech she leapt into Lisa’s lap, Catherine resuming her cries as soon as it left her side.  Lisa knelt with the cat beside the baby, trying to calm her again.  The cat poked it’s head around her back and bared her teeth at him in a silent hiss.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "'Baby that thing has to go.'", 
                 nextText: 28
             }
         ]
     }, 
     {
         id: 28, 
-        text: "Catherine started awake again, crying with all the might of a baby’s lungs.  Before either of them could move the cat leapt down and sat by her, purring.  Her cries stopped instantly, turning to an excited gurgle instead.  The cat sat staring at her, purring contentedly.  Lisa looked to Mark, looked at him with those big brown eyes.  Lip pouting.\n 'Awh babe, look at that, she loves her.  We have to keep her.'\n 'No way, that thing gives me the creeps and it’s leaving right now.'\n",
+        text: "'No, I\’m keeping her.  She\’s keeping Catherine quiet and you know I\’ve always wanted a cat.  She\’ll grow on you as soon as she forgives you for hitting her with the car.'",
         graphic: "#", 
         options: [
             {
-                text: "Reache down to grab the cat", 
+                text: "Recognising the look on her face Mark knew it was pointless to argue.  It was that \‘this is happening and we both know it is\’ look.", 
                 nextText: 29
             }
         ]
     }, 
     {
         id: 29, 
-        text: "With a screech she leapt into Lisa’s lap, Catherine resuming her cries as soon as it left her side.  Lisa knelt with the cat beside the baby, trying to calm her again.  The cat poked it’s head around her back and bared her teeth at him in a silent hiss.",
+        text: "'Fine, but it’s getting locked in the kitchen tonight.'\n 'Fine. Go clean up your hand babe, and change the bulb on the landing would you?'\n Not waiting for an answer she turned back and started petting the cat with one hand and playing with Catherine\'s tiny hands with the other.  The cat licked it\’s paw again before turning it\’s eyes from his dismissively.",
         graphic: "#", 
         options: [
             {
-                text: "'Baby that thing has to go.'", 
+                text: "Lock the cat in the kitchen", 
                 nextText: 30
             }
         ]
     }, 
     {
         id: 30, 
-        text: "'No, I\’m keeping her.  She\’s keeping Catherine quiet and you know I\’ve always wanted a cat.  She\’ll grow on you as soon as she forgives you for hitting her with the car.'",
+        text: "'Now stay here you little shit, tomorrow you\’re out,' Mark said with great satisfaction as he closed the kitchen door on the hissing cat.  He got to their room just as Lisa had put Catherine down in the crib.  He put his arm around Lisa as they both stood watching her sleep for several long minutes. \n'Can you believe we made something so perfect?' she whispered.\n 'She\’s just like her mother.'  They quickly fell asleep, the long day having caught up to them both.",
         graphic: "#", 
         options: [
             {
-                text: "Recognising the look on her face Mark knew it was pointless to argue.  It was that \‘this is happening and we both know it is\’ look.", 
+                text: "Go to sleep", 
                 nextText: 31
             }
         ]
     }, 
     {
         id: 31, 
-        text: "'Fine, but it’s getting locked in the kitchen tonight.'\n 'Fine. Go clean up your hand babe, and change the bulb on the landing would you?'\n Not waiting for an answer she turned back and started petting the cat with one hand and playing with Catherine\'s tiny hands with the other.  The cat licked it\’s paw again before turning it\’s eyes from his dismissively.",
-        graphic: "#", 
-        options: [
-            {
-                text: "Lock the cat in the kitchen", 
-                nextText: 32
-            }
-        ]
-    }, 
-    {
-        id: 32, 
-        text: "'Now stay here you little shit, tomorrow you\’re out,' Mark said with great satisfaction as he closed the kitchen door on the hissing cat.  He got to their room just as Lisa had put Catherine down in the crib.  He put his arm around Lisa as they both stood watching her sleep for several long minutes. \n'Can you believe we made something so perfect?' she whispered.\n 'She\’s just like her mother.'  They quickly fell asleep, the long day having caught up to them both.",
-        graphic: "#", 
-        options: [
-            {
-                text: "Go to sleep", 
-                nextText: 33
-            }
-        ]
-    }, 
-    {
-        id: 33, 
         text: "",
         graphic: "#", 
         options: [
             {
                 text: "continue", 
-                nextText: 34
+                nextText: 32
             }
         ]
     } 
