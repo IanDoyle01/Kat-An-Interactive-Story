@@ -422,7 +422,84 @@ const textBlocks = [
                 nextText: 32
             }
         ]
-    } 
+    }, 
+    {
+        id: 32, 
+        text: "",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 33
+            }
+        ]
+    }, 
+    {
+        id: 33, 
+        text: "",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 34
+            }
+        ]
+    }, 
+    {
+        id: 34, 
+        text: "",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 35
+            }
+        ]
+    }, 
+    {
+        id: 35, 
+        text: "",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 36
+            }
+        ]
+    }, 
+    {
+        id: 36, 
+        text: "",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 37
+            }
+        ]
+    }, 
+    {
+        id: 37, 
+        text: "",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 38
+            }
+        ]
+    }, 
+    {
+        id: 38, 
+        text: "",
+        graphic: "#", 
+        options: [
+            {
+                text: "continue", 
+                nextText: 39
+            }
+        ]
+    }  
 ]
 
 
