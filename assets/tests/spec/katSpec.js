@@ -15,6 +15,10 @@ describe("Kat Game", function() {
         it("show option should exist", function() {
             expect(showOption).toBeDefined();
         });
+        // Check selectOption is defined
+        it("select option should exist", function() {
+            expect(selectOption).toBeDefined();
+        });
     });
 });
 
