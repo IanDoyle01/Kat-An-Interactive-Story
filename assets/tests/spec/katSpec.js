@@ -20,5 +20,14 @@ describe("Kat Game", function() {
             expect(selectOption).toBeDefined();
         });
     });
+
+    // Check startGame resets state when called
+    // describe("state is empty on new game", function() {
+    //     it("should clear the contents of state", function() {
+    //         state = {"1" : "2"}
+    //         startGame();
+    //         expect(Object.state).toBe({});
+    //     });
+    // })
 });
 
