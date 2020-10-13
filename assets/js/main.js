@@ -21,6 +21,7 @@ function showTextBlock(textBlockIndex) {
     // Display Graphic
     sceneGraphic.innerHTML = textBlock.graphic
     
+    
     // clear the option buttons
     while (optionElement.firstChild) {
         optionElement.removeChild(optionElement.firstChild)
@@ -76,7 +77,7 @@ const textBlocks = [
     {
         id: 2, 
         text: "The dark October night was broken only by the evenly spaced orange glow of street lights.",
-        graphic: "#", 
+        graphic: '<img src="assets/graphics/RoadandCar.svg" />', 
         options: [
             {
                 text: "Drive the car", 
