@@ -364,7 +364,7 @@ const textBlocks = [
         graphic: "#", 
         options: [
             {
-                text: "Reache down to grab the cat", 
+                text: "Reach down to grab the cat", 
                 nextText: 27
             }
         ]
@@ -415,88 +415,88 @@ const textBlocks = [
     }, 
     {
         id: 31, 
-        text: "",
+        text: "Mark jerked awake.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "Is that the baby, Li?", 
                 nextText: 32
             }
         ]
     }, 
     {
         id: 32, 
-        text: "",
+        text: "'Hmm, no, it’s some cats outside babe, go back to sleep.' She rolled over and pulled him to her, instantly dozing off again. He lay there for a few minutes listening to the local cats baby-like cries from outside. Mark shudders with each cry.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "Try to go back to sleep.", 
                 nextText: 33
             }
         ]
     }, 
     {
         id: 33, 
-        text: "",
+        text: "He woke with his heart pounding, adrenaline pumping through him.  Something was terribly wrong.  He leapt from the bed and ran for the light.  Nothing, the room remained black.  Darker than it should be. ",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "'Li, Li, wake up!'", 
                 nextText: 34
             }
         ]
     }, 
     {
         id: 34, 
-        text: "",
+        text: "She didn’t stir. He ran to her and shook her. Nothing.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "'Li, Lisa.. baby wake up!'", 
                 nextText: 35
             }
         ]
     }, 
     {
         id: 35, 
-        text: "",
+        text: "Nothing but her steady breathing in the dark. Just audible above the rising baby cries of the cats outside. No, not all cats. Not all outside.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "He tore aside the curtain to the nursery.", 
                 nextText: 36
             }
         ]
     }, 
     {
         id: 36, 
-        text: "",
+        text: "It and the pole fell off the wall, knocking him to the ground as the pole struck his head. Through blurry eyes, the room dimly lit by a nearby street lamp, he found the source of the cries.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "Try to focus", 
                 nextText: 37
             }
         ]
     }, 
     {
         id: 37, 
-        text: "",
+        text: "The cat sat beside Catherine's tiny head at the top of the crib.  One black paw rested on her brow.  It looked at him and there was no mistaking it. It’s eyes were glowing a vivid yellow.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "Shake your head", 
                 nextText: 38
             }
         ]
     }, 
     {
         id: 38, 
-        text: "",
+        text: "As his head cleared Mark realised that everything was wrong. The baby cries weren’t coming from Catherine. They came from the cat; every time it opened its mouth, his daughters’ cries poured into the room.",
         graphic: "#", 
         options: [
             {
-                text: "continue", 
+                text: "Scream at the cat.", 
                 nextText: 39
             }
         ]
